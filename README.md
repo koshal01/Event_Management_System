@@ -44,4 +44,8 @@ CREATE TABLE invite (
     FOREIGN KEY (event_id) REFERENCES events(event_id)
 );
 ```
+<<<<<<< HEAD
  
+=======
+ 
+>>>>>>> 2ee934eeab7ed6819af1b5e14366c1ea65d38da9
