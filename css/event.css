@@ -1,0 +1,71 @@
+.heading {
+    margin-left: 105px;
+    margin-bottom: 300px;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form,
+.content {
+    width: 30%;
+    margin: -275px auto auto 503px;
+    padding: 20px;
+    border: 2px solid #B0C4DE;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: -5px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.inv_form {
+    margin-left: 500px;
+    margin-top: 55px;
+}
+
+.head {
+    margin-bottom: 30px;
+    margin-left: 105px;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}

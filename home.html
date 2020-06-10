@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Managemnet Website</title>
+    <link rel="stylesheet" href="css\home.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <span class="topic">Event Management</span>
+        <a href="php/register.php" class="right">Sign Up</a>
+        <a href="php/login.php" class="right">Log In</a>
+    </div>
+
+    <section>
+        <img class="mySlides" src="images/2.jpg" style="width:100%">
+        <img class="mySlides" src="images/2.jpg" style="width:100%">
+        <img class="mySlides" src="images/3.jpg" style="width:100%">
+    </section>
+
+
+</body>
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000);
+    }
+</script>
+
+</html>

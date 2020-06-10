@@ -1,0 +1,66 @@
+.card {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-image: url(images/invite.jpg);
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.invite-head {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.big {
+    /* margin-top: -10px; */
+    font-size: 35px;
+    color: blueviolet;
+    word-spacing: 15px;
+}
+
+.inf {
+    font-size: 25px;
+    color: coral;
+}
+
+.btn {
+    margin-top: 8px;
+    margin-left: 770px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+#outer {
+    width: 100%;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}
+
+.butn {
+    margin-top: 8px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.col1 {
+    background: green;
+    margin-left: 240px;
+}
+
+.col2 {
+    background: red;
+}

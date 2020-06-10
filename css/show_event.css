@@ -1,0 +1,73 @@
+.header {
+    margin-top: 30px;
+    margin-left: 720px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* For table showing all the events */
+
+table {
+    margin-top: 35px;
+    margin-left: 330px;
+    font-size: 28px;
+    border: #B0C4DE;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5F9EA0;
+    color: white;
+}
+
+
+/* For table showing invite list */
+
+.invitees {
+    margin-left: 520px;
+}
+
+.head {
+    margin-left: 600px;
+}
+
+
+/* For table showing accepted events */
+
+.acc_event {
+    margin-left: 360px;
+}
+
+.acc_head {
+    margin-left: 650px;
+}
+
+
+/* For tables showing invitation */
+
+.invitation {
+    margin-left: 560px;
+}
+
+.inv {
+    margin-left: 680px;
+}
