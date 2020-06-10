@@ -3,7 +3,8 @@
 An event management system to invite people for different events/parties through phpmailer and show a message in the website if the user has registered in the system.
 
 >PHPMailer used for sending invites.
->[PhpMailer-Github] https://github.com/PHPMailer/PHPMailer
+>
+>[PhpMailer-Github](https://github.com/PHPMailer/PHPMailer)
 
 ## Creating the database
 
